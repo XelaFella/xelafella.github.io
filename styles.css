@@ -27,8 +27,7 @@ ul.nav-bar li a:hover {
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0)), url(main/banner.webp);
     background-size: cover;
     background-position: center;
-    top: 0px;
-    padding: 5vh;
+    padding: 3vh;
 }
 @keyframes float {
     from {transform: translateY(-10px);}
