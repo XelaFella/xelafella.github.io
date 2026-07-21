@@ -5,19 +5,19 @@ body {
     background-color: #ffffff;
     text-align: center;
 }
-.nav-bar {
+ul.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #000000;
     display: flex;
 }
-.nav-link {
+ul.nav_bar li a {
     display: block;
     color: #ffffff;
     padding: 14px 16px;
     text-decoration: none;
 }
-.nav-link:hover {
+ul.nav_bar li a:hover {
     background-color: #555555;
 }
