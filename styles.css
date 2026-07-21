@@ -1,14 +1,41 @@
-body {
+body, html {
     margin: 0;
-    padding: 20px;
+    padding: 0;
     font-family: system-ui, -apple-system, sans-serif;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #331019;
     text-align: center;
 }
-.nav-bar {
+ul.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #000000;
     display: flex;
+    justify-content: flex-end;
+}
+ul.nav-bar li a {
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.nav-bar li a:hover {
+    background-color: #444040;
+}
+#banner {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0)), url(main/banner.webp);
+    background-size: cover;
+    background-position: center;
+    top: 0px;
+    height: 50vh;
+}
+@keyframes floaty {
+    from {transform: translateY(10px);}
+    to {transform: translateY(30px)}
+}
+img.floaty {
+    width: 400px;
+    height: 400px;
+    animation: floaty 3s infinite alternate ease-in-out;
 }
