@@ -30,12 +30,16 @@ ul.nav-bar li a:hover {
     top: 0px;
     height: 50vh;
 }
-@keyframes floaty {
+@keyframes float {
     from {transform: translateY(10px);}
     to {transform: translateY(30px)}
 }
-img.floaty {
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+img.logo {
     width: 400px;
     height: 400px;
-    animation: floaty 3s infinite alternate ease-in-out;
+    animation: float 3s infinite alternate ease-in-out, fade 1s ease-out;
 }
