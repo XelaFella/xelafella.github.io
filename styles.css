@@ -28,11 +28,11 @@ ul.nav-bar li a:hover {
     background-size: cover;
     background-position: center;
     top: 0px;
-    height: 50vh;
+    padding: 5vh;
 }
 @keyframes float {
-    from {transform: translateY(10px);}
-    to {transform: translateY(30px)}
+    from {transform: translateY(-10px);}
+    to {transform: translateY(10px)}
 }
 @keyframes fade {
     from {opacity: 0;}
